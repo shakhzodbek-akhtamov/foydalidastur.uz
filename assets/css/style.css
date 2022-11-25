@@ -15,7 +15,7 @@ html {
 }
 
 .container {
-    width: 1140px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ a {
 }
 
 .btn {
-    display: flex;
+    display: inline-block;
     align-items: center;
     padding: 0.625rem 4rem;
     color: #fff;
@@ -171,7 +171,7 @@ header .nav .logo img {
 
 .header-img img {
     position: absolute;
-    width: 120%;
+    width: 100%;
     left: -30px;
     top: -100px;
 }
@@ -188,8 +188,7 @@ header .nav .logo img {
 }
 
 .section-title {
-    width: 550px;
-    margin: 0 auto;
+    display: inline-block;
     text-align: center;
     margin-bottom: 2rem;
 }
